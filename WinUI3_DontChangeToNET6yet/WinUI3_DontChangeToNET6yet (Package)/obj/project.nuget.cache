@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "zsh+scBuOtfgRacNHUVb2a7uOwb8ZbM29cbtKRJvWCboE4SD6oAlglu1UWAf4JTPs+usC4SjeS7kuyqv0C0aLQ==",
+  "success": true,
+  "projectFilePath": "C:\\Meus Programas\\Meus Projetos e Treinamentos\\WinUI3_DontChangeToNET6yet\\WinUI3_DontChangeToNET6yet\\WinUI3_DontChangeToNET6yet (Package)\\WinUI3_DontChangeToNET6yet (Package).wapproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lazie\\.nuget\\packages\\microsoft.windowsappsdk\\1.0.0-experimental1\\microsoft.windowsappsdk.1.0.0-experimental1.nupkg.sha512",
+    "C:\\Users\\lazie\\.nuget\\packages\\microsoft.windowsappsdk.dwrite\\1.0.0-experimental1\\microsoft.windowsappsdk.dwrite.1.0.0-experimental1.nupkg.sha512",
+    "C:\\Users\\lazie\\.nuget\\packages\\microsoft.windowsappsdk.foundation\\1.0.0-experimental1\\microsoft.windowsappsdk.foundation.1.0.0-experimental1.nupkg.sha512",
+    "C:\\Users\\lazie\\.nuget\\packages\\microsoft.windowsappsdk.interactiveexperiences\\1.0.0-experimental1\\microsoft.windowsappsdk.interactiveexperiences.1.0.0-experimental1.nupkg.sha512",
+    "C:\\Users\\lazie\\.nuget\\packages\\microsoft.windowsappsdk.winui\\1.0.0-experimental1\\microsoft.windowsappsdk.winui.1.0.0-experimental1.nupkg.sha512"
+  ],
+  "logs": []
+}

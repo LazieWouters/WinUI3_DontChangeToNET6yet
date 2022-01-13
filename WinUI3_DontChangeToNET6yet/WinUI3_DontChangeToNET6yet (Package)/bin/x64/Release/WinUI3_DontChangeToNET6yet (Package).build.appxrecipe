@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NOTEDELL</Machine>
+    <WindowsUser>lazie</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>5c41ec2d-e3ad-4f5d-b387-59ff4935ae54</PackageIdentityName>
+    <PackageIdentityPublisher>CN=lazie</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\bin\x64\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\bin\x64\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\4202051logosocialsocialmediatorrentutorrent-115637_115664.ico">
+      <PackagePath>Images\4202051logosocialsocialmediatorrentutorrent-115637_115664.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Ampeross-Smooth-Opera.ico">
+      <PackagePath>Images\Ampeross-Smooth-Opera.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Bee Music.ico">
+      <PackagePath>Images\Bee Music.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Captura_e_Esboço.ico">
+      <PackagePath>Images\Captura_e_Esboço.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\CCleaner_23560.ico">
+      <PackagePath>Images\CCleaner_23560.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Clipboard 4.ico">
+      <PackagePath>Images\Clipboard 4.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\cpuprocessorchiphardware-115841_115788.ico">
+      <PackagePath>Images\cpuprocessorchiphardware-115841_115788.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\edge_dev_browser_logo_icon_152999.ico">
+      <PackagePath>Images\edge_dev_browser_logo_icon_152999.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\file_type_vscode_icon_130084.ico">
+      <PackagePath>Images\file_type_vscode_icon_130084.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\file_type_vscode_insiders_icon_130085.ico">
+      <PackagePath>Images\file_type_vscode_insiders_icon_130085.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Fireworks_23547.ico">
+      <PackagePath>Images\Fireworks_23547.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Fix Windows Settings.ico">
+      <PackagePath>Images\Fix Windows Settings.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Google-Chrome-Google-Chrome.ico">
+      <PackagePath>Images\Google-Chrome-Google-Chrome.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Iconshock-Real-Vista-Development-Defragmentation.ico">
+      <PackagePath>Images\Iconshock-Real-Vista-Development-Defragmentation.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Martz90-Circle-Addon1-Nvidia.ico">
+      <PackagePath>Images\Martz90-Circle-Addon1-Nvidia.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\microsoft_office_excel_logo_icon_145720.ico">
+      <PackagePath>Images\microsoft_office_excel_logo_icon_145720.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\microsoft_office_word_logo_icon_145724.ico">
+      <PackagePath>Images\microsoft_office_word_logo_icon_145724.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\mouse_keyboard_19688.ico">
+      <PackagePath>Images\mouse_keyboard_19688.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Pasta.ico">
+      <PackagePath>Images\Pasta.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Shaunkleyn-Phlat-Blue-Folders-Trash-Empty.ico">
+      <PackagePath>Images\Shaunkleyn-Phlat-Blue-Folders-Trash-Empty.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Update.ico">
+      <PackagePath>Images\Update.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\vlc_cone_18921.ico">
+      <PackagePath>Images\vlc_cone_18921.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Wallpaper.ico">
+      <PackagePath>Images\Wallpaper.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Windows Terminal as Admin.ico">
+      <PackagePath>Images\Windows Terminal as Admin.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\WinRAR_23510.ico">
+      <PackagePath>Images\WinRAR_23510.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Acronis.png">
+      <PackagePath>Images\Acronis.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\BeyondCompare.png">
+      <PackagePath>Images\BeyondCompare.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Bluetooth Monitor.png">
+      <PackagePath>Images\Bluetooth Monitor.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Camtasia.png">
+      <PackagePath>Images\Camtasia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\CoreTemp.png">
+      <PackagePath>Images\CoreTemp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Driver_Booster_Logo.png">
+      <PackagePath>Images\Driver_Booster_Logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\logitech-unifying-software.png">
+      <PackagePath>Images\logitech-unifying-software.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\mspaint-icon-big-256-fluent-new.png">
+      <PackagePath>Images\mspaint-icon-big-256-fluent-new.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\PDF.png">
+      <PackagePath>Images\PDF.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\rainmeter-blue-waterdrop-icon-thumbnail.png">
+      <PackagePath>Images\rainmeter-blue-waterdrop-icon-thumbnail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\recycle-bin-windows.png">
+      <PackagePath>Images\recycle-bin-windows.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\RevoUninstaller.png">
+      <PackagePath>Images\RevoUninstaller.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\rider_logo_300x300.png">
+      <PackagePath>Images\rider_logo_300x300.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Rufus-logo.png">
+      <PackagePath>Images\Rufus-logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\StoreLogo.png">
+      <PackagePath>Images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\TornadoThrottleStop.png">
+      <PackagePath>Images\TornadoThrottleStop.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\TreeSize-Icon-256.png">
+      <PackagePath>Images\TreeSize-Icon-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\VisualStudio.512x512.png">
+      <PackagePath>Images\VisualStudio.512x512.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Windows-10-Calculator-Fluent-Icon-Big-256.png">
+      <PackagePath>Images\Windows-10-Calculator-Fluent-Icon-Big-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Windows-10X-Colorful-Notepad-Fluent-Icon.png">
+      <PackagePath>Images\Windows-10X-Colorful-Notepad-Fluent-Icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\WindScribe.png">
+      <PackagePath>Images\WindScribe.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\XAML_Controls_Gallery.png">
+      <PackagePath>Images\XAML_Controls_Gallery.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\ConsoleLauncher.exe">
+      <PackagePath>Images\ConsoleLauncher.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\DriversUsedSpace.exe">
+      <PackagePath>Images\DriversUsedSpace.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Família.jpg">
+      <PackagePath>Images\Família.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\bin\x64\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lazie\.nuget\packages\microsoft.windowsappsdk.foundation\1.0.0-experimental1\lib\net5.0-windows10.0.17763.0\Microsoft.ApplicationModel.Resources.Projection.dll">
+      <PackagePath>WinUI3_DontChangeToNET6yet\Microsoft.ApplicationModel.Resources.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lazie\.nuget\packages\microsoft.windowsappsdk.interactiveexperiences\1.0.0-experimental1\lib\net5.0-windows10.0.17763.0\Microsoft.InteractiveExperiences.Projection.dll">
+      <PackagePath>WinUI3_DontChangeToNET6yet\Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lazie\.nuget\packages\microsoft.windowsappsdk.winui\1.0.0-experimental1\lib\net5.0-windows10.0.18362.0\Microsoft.WinUI.dll">
+      <PackagePath>WinUI3_DontChangeToNET6yet\Microsoft.WinUI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lazie\.nuget\packages\pinvoke.kernel32\0.7.104\lib\netstandard2.0\PInvoke.Kernel32.dll">
+      <PackagePath>WinUI3_DontChangeToNET6yet\PInvoke.Kernel32.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lazie\.nuget\packages\pinvoke.user32\0.7.104\lib\netstandard2.0\PInvoke.User32.dll">
+      <PackagePath>WinUI3_DontChangeToNET6yet\PInvoke.User32.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lazie\.nuget\packages\pinvoke.windows.core\0.7.104\lib\netstandard2.0\PInvoke.Windows.Core.dll">
+      <PackagePath>WinUI3_DontChangeToNET6yet\PInvoke.Windows.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lazie\.nuget\packages\pinvoke.windows.shellscalingapi\0.7.104\lib\netstandard2.0\PInvoke.Windows.ShellScalingApi.dll">
+      <PackagePath>WinUI3_DontChangeToNET6yet\PInvoke.Windows.ShellScalingApi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lazie\.nuget\packages\validation\2.4.15\lib\netstandard1.3\Validation.dll">
+      <PackagePath>WinUI3_DontChangeToNET6yet\Validation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lazie\.nuget\packages\microsoft.windowsappsdk.foundation\1.0.0-experimental1\runtimes\lib\native\arm64\Microsoft.WindowsAppSDK.Bootstrap.dll">
+      <PackagePath>WinUI3_DontChangeToNET6yet\runtimes\lib\native\arm64\Microsoft.WindowsAppSDK.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lazie\.nuget\packages\microsoft.windowsappsdk.foundation\1.0.0-experimental1\runtimes\lib\native\x64\Microsoft.WindowsAppSDK.Bootstrap.dll">
+      <PackagePath>WinUI3_DontChangeToNET6yet\runtimes\lib\native\x64\Microsoft.WindowsAppSDK.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lazie\.nuget\packages\microsoft.windowsappsdk.foundation\1.0.0-experimental1\runtimes\lib\native\x86\Microsoft.WindowsAppSDK.Bootstrap.dll">
+      <PackagePath>WinUI3_DontChangeToNET6yet\runtimes\lib\native\x86\Microsoft.WindowsAppSDK.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lazie\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.22\lib\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>WinUI3_DontChangeToNET6yet\Microsoft.Windows.SDK.NET.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lazie\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.22\lib\WinRT.Runtime.dll">
+      <PackagePath>WinUI3_DontChangeToNET6yet\WinRT.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\bin\x64\Release\net5.0-windows10.0.19041.0\WinUI3_DontChangeToNET6yet.deps.json">
+      <PackagePath>WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\bin\x64\Release\net5.0-windows10.0.19041.0\WinUI3_DontChangeToNET6yet.runtimeconfig.dev.json">
+      <PackagePath>WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.runtimeconfig.dev.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\obj\x64\Release\net5.0-windows10.0.19041.0\App.xbf">
+      <PackagePath>WinUI3_DontChangeToNET6yet\App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\obj\x64\Release\net5.0-windows10.0.19041.0\MainWindow.xbf">
+      <PackagePath>WinUI3_DontChangeToNET6yet\MainWindow.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\obj\x64\Release\net5.0-windows10.0.19041.0\apphost.exe">
+      <PackagePath>WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\bin\x64\Release\net5.0-windows10.0.19041.0\WinUI3_DontChangeToNET6yet.runtimeconfig.json">
+      <PackagePath>WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.runtimeconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\bin\x64\Release\net5.0-windows10.0.19041.0\WinUI3_DontChangeToNET6yet.dll">
+      <PackagePath>WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.dll</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\lazie\.nuget\packages\microsoft.windowsappsdk\1.0.0-experimental1\build\..\tools\MSIX\win10-x86\Microsoft.WindowsAppSDK.1.0-experimental1.msix">
+      <Name>Microsoft.WindowsAppSDK.1.0-experimental1</Name>
+      <Version>0.218.840.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppSDK.1.0-experimental1, MinVersion = 0.218.840.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\lazie\.nuget\packages\microsoft.windowsappsdk\1.0.0-experimental1\build\..\tools\MSIX\win10-x86\Microsoft.WindowsAppSDK.1.0-experimental1.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\lazie\.nuget\packages\microsoft.windowsappsdk\1.0.0-experimental1\build\..\tools\MSIX\win10-x86\Microsoft.WindowsAppSDK.1.0-experimental1.msix">
+      <Name>Microsoft.WindowsAppSDK.1.0-experimental1</Name>
+      <Version>0.218.840.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppSDK.1.0-experimental1, MinVersion = 0.218.840.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\lazie\.nuget\packages\microsoft.windowsappsdk\1.0.0-experimental1\build\..\tools\MSIX\win10-x86\Microsoft.WindowsAppSDK.1.0-experimental1.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\lazie\.nuget\packages\microsoft.windowsappsdk\1.0.0-experimental1\build\..\tools\MSIX\win10-x64\Microsoft.WindowsAppSDK.1.0-experimental1.msix">
+      <Name>Microsoft.WindowsAppSDK.1.0-experimental1</Name>
+      <Version>0.218.840.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppSDK.1.0-experimental1, MinVersion = 0.218.840.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\lazie\.nuget\packages\microsoft.windowsappsdk\1.0.0-experimental1\build\..\tools\MSIX\win10-x64\Microsoft.WindowsAppSDK.1.0-experimental1.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\lazie\.nuget\packages\microsoft.windowsappsdk\1.0.0-experimental1\build\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppSDK.1.0-experimental1.msix">
+      <Name>Microsoft.WindowsAppSDK.1.0-experimental1</Name>
+      <Version>0.218.840.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppSDK.1.0-experimental1, MinVersion = 0.218.840.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\lazie\.nuget\packages\microsoft.windowsappsdk\1.0.0-experimental1\build\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppSDK.1.0-experimental1.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

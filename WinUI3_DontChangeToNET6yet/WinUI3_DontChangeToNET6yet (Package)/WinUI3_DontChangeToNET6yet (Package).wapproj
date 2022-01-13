@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '15.0'">
+    <VisualStudioVersion>15.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|arm64">
+      <Configuration>Debug</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|arm64">
+      <Configuration>Release</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup>
+    <WapProjPath Condition="'$(WapProjPath)'==''">$(MSBuildExtensionsPath)\Microsoft\DesktopBridge\</WapProjPath>
+    <PathToXAMLWinRTImplementations>WinUI3_DontChangeToNET6yet\</PathToXAMLWinRTImplementations>
+  </PropertyGroup>
+  <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.props" />
+  <PropertyGroup>
+    <ProjectGuid>a1926b1b-7de7-47c6-bd5a-707f6a3a3e0d</ProjectGuid>
+    <TargetPlatformVersion>10.0.19041.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
+    <AssetTargetFallback>net5.0-windows$(TargetPlatformVersion);$(AssetTargetFallback)</AssetTargetFallback>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
+    <EntryPointProjectUniqueName>..\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.csproj</EntryPointProjectUniqueName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\4202051logosocialsocialmediatorrentutorrent-115637_115664.ico" />
+    <Content Include="Images\Acronis.png" />
+    <Content Include="Images\Ampeross-Smooth-Opera.ico" />
+    <Content Include="Images\Bee Music.ico" />
+    <Content Include="Images\BeyondCompare.png" />
+    <Content Include="Images\Bluetooth Monitor.png" />
+    <Content Include="Images\Camtasia.png" />
+    <Content Include="Images\Captura_e_Esboço.ico" />
+    <Content Include="Images\CCleaner_23560.ico" />
+    <Content Include="Images\Clipboard 4.ico" />
+    <Content Include="Images\ConsoleLauncher.exe" />
+    <Content Include="Images\CoreTemp.png" />
+    <Content Include="Images\cpuprocessorchiphardware-115841_115788.ico" />
+    <Content Include="Images\DriversUsedSpace.exe" />
+    <Content Include="Images\Driver_Booster_Logo.png" />
+    <Content Include="Images\edge_dev_browser_logo_icon_152999.ico" />
+    <Content Include="Images\Família.jpg" />
+    <Content Include="Images\file_type_vscode_icon_130084.ico" />
+    <Content Include="Images\file_type_vscode_insiders_icon_130085.ico" />
+    <Content Include="Images\Fireworks_23547.ico" />
+    <Content Include="Images\Fix Windows Settings.ico" />
+    <Content Include="Images\Google-Chrome-Google-Chrome.ico" />
+    <Content Include="Images\Iconshock-Real-Vista-Development-Defragmentation.ico" />
+    <Content Include="Images\logitech-unifying-software.png" />
+    <Content Include="Images\Martz90-Circle-Addon1-Nvidia.ico" />
+    <Content Include="Images\microsoft_office_excel_logo_icon_145720.ico" />
+    <Content Include="Images\microsoft_office_word_logo_icon_145724.ico" />
+    <Content Include="Images\mouse_keyboard_19688.ico" />
+    <Content Include="Images\mspaint-icon-big-256-fluent-new.png" />
+    <Content Include="Images\Pasta.ico" />
+    <Content Include="Images\PDF.png" />
+    <Content Include="Images\rainmeter-blue-waterdrop-icon-thumbnail.png" />
+    <Content Include="Images\recycle-bin-windows.png" />
+    <Content Include="Images\RevoUninstaller.png" />
+    <Content Include="Images\rider_logo_300x300.png" />
+    <Content Include="Images\Rufus-logo.png" />
+    <Content Include="Images\Shaunkleyn-Phlat-Blue-Folders-Trash-Empty.ico" />
+    <Content Include="Images\SplashScreen.scale-200.png" />
+    <Content Include="Images\LockScreenLogo.scale-200.png" />
+    <Content Include="Images\Square150x150Logo.scale-200.png" />
+    <Content Include="Images\Square44x44Logo.scale-200.png" />
+    <Content Include="Images\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Images\StoreLogo.png" />
+    <Content Include="Images\TornadoThrottleStop.png" />
+    <Content Include="Images\TreeSize-Icon-256.png" />
+    <Content Include="Images\Update.ico" />
+    <Content Include="Images\VisualStudio.512x512.png" />
+    <Content Include="Images\vlc_cone_18921.ico" />
+    <Content Include="Images\Wallpaper.ico" />
+    <Content Include="Images\Wide310x150Logo.scale-200.png" />
+    <Content Include="Images\Windows Terminal as Admin.ico" />
+    <Content Include="Images\Windows-10-Calculator-Fluent-Icon-Big-256.png" />
+    <Content Include="Images\Windows-10X-Colorful-Notepad-Fluent-Icon.png" />
+    <Content Include="Images\WindScribe.png" />
+    <Content Include="Images\WinRAR_23510.ico" />
+    <Content Include="Images\XAML_Controls_Gallery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.csproj">
+      <SkipGetTargetFrameworkProperties>True</SkipGetTargetFrameworkProperties>
+      <PublishProfile>Properties\PublishProfiles\win10-$(Platform).pubxml</PublishProfile>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="[1.0.0-experimental1]">
+      <IncludeAssets>build</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.WindowsAppSDK.WinUI" Version="[1.0.0-experimental1]">
+      <IncludeAssets>build</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Space_C.txt" />
+    <None Include="Images\Space_D.txt" />
+  </ItemGroup>
+  <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.targets" />
+</Project>

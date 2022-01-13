@@ -1,0 +1,88 @@
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\Microsoft.ApplicationModel.Resources.Projection.dll
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\Microsoft.InteractiveExperiences.Projection.dll
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\Microsoft.WinUI.dll
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\runtimes\lib\native\arm64\Microsoft.WindowsAppSDK.Bootstrap.dll
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\runtimes\lib\native\x64\Microsoft.WindowsAppSDK.Bootstrap.dll
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\runtimes\lib\native\x86\Microsoft.WindowsAppSDK.Bootstrap.dll
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\Microsoft.Windows.SDK.NET.dll
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\WinRT.Runtime.dll
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.deps.json
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.runtimeconfig.dev.json
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\App.xbf
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\MainWindow.xbf
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.exe
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.runtimeconfig.json
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.dll
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.pdb
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\resources.pri
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\AppxManifest.xml
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet (Package).build.appxrecipe
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\WinUI3_DontChangeToNET6yet (Package).wapproj.AssemblyReference.cache
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\WinUI3_DontChangeToNET6yet (Package).wapproj.CoreCompileInputs.cache
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\WinUI3_DontChangeToNET6yet.pri.xml
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\priconfig.xml
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\priconfig.xml.intermediate
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\unfiltered.layout.resfiles
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\unfiltered.layout.resfiles.intermediate
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\filtered.layout.resfiles
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\filtered.layout.resfiles.intermediate
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\excluded.layout.resfiles
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\excluded.layout.resfiles.intermediate
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\resources.resfiles
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\resources.resfiles.intermediate
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\pri.resfiles
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\pri.resfiles.intermediate
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\qualifiers.txt
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\qualifiers.txt.intermediate
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\MultipleQualifiersPerDimensionFound.txt
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\ProjectArchitectures.txt
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\WinUI3_DontChangeToNET6yet (Package).wapproj.LastBuild.txt
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\PInvoke.Kernel32.dll
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\PInvoke.User32.dll
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\PInvoke.Windows.Core.dll
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\PInvoke.Windows.ShellScalingApi.dll
+D:\VS 2022\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\Validation.dll
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\Microsoft.ApplicationModel.Resources.Projection.dll
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\Microsoft.InteractiveExperiences.Projection.dll
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\Microsoft.WinUI.dll
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\runtimes\lib\native\arm64\Microsoft.WindowsAppSDK.Bootstrap.dll
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\runtimes\lib\native\x64\Microsoft.WindowsAppSDK.Bootstrap.dll
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\runtimes\lib\native\x86\Microsoft.WindowsAppSDK.Bootstrap.dll
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\Microsoft.Windows.SDK.NET.dll
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\WinRT.Runtime.dll
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.deps.json
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.runtimeconfig.dev.json
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\App.xbf
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\MainWindow.xbf
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.exe
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.runtimeconfig.json
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.dll
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.pdb
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\resources.pri
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\AppxManifest.xml
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet (Package).build.appxrecipe
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\WinUI3_DontChangeToNET6yet (Package).wapproj.AssemblyReference.cache
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\WinUI3_DontChangeToNET6yet (Package).wapproj.CoreCompileInputs.cache
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\WinUI3_DontChangeToNET6yet.pri.xml
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\priconfig.xml
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\priconfig.xml.intermediate
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\unfiltered.layout.resfiles
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\unfiltered.layout.resfiles.intermediate
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\filtered.layout.resfiles
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\filtered.layout.resfiles.intermediate
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\excluded.layout.resfiles
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\excluded.layout.resfiles.intermediate
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\resources.resfiles
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\resources.resfiles.intermediate
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\pri.resfiles
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\pri.resfiles.intermediate
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\qualifiers.txt
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\qualifiers.txt.intermediate
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\ProjectArchitectures.txt
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\obj\x64\Release\WinUI3_DontChangeToNET6yet (Package).wapproj.LastBuild.txt
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\PInvoke.Kernel32.dll
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\PInvoke.User32.dll
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\PInvoke.Windows.Core.dll
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\PInvoke.Windows.ShellScalingApi.dll
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\bin\x64\Release\WinUI3_DontChangeToNET6yet\Validation.dll

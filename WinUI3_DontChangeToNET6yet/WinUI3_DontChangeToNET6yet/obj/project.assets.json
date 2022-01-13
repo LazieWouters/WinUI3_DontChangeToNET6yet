@@ -1,0 +1,1272 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows10.0.19041": {
+      "Microsoft.WindowsAppSDK/1.0.0-experimental1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK.DWrite": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.Foundation": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.WinUI": "1.0.0-experimental1"
+        },
+        "build": {
+          "build/Microsoft.WindowsAppSDK.props": {},
+          "build/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK.DWrite/1.0.0-experimental1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.WindowsAppSDK.DWrite.props": {},
+          "build/Microsoft.WindowsAppSDK.DWrite.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK.Foundation/1.0.0-experimental1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "build": {
+          "build/Microsoft.WindowsAppSDK.Foundation.props": {},
+          "build/Microsoft.WindowsAppSDK.Foundation.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/lib/native/arm64/Microsoft.WindowsAppSDK.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "lib"
+          },
+          "runtimes/lib/native/x64/Microsoft.WindowsAppSDK.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "lib"
+          },
+          "runtimes/lib/native/x86/Microsoft.WindowsAppSDK.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "lib"
+          }
+        }
+      },
+      "Microsoft.WindowsAppSDK.InteractiveExperiences/1.0.0-experimental1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.InteractiveExperiences.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.InteractiveExperiences.Projection.dll": {}
+        },
+        "build": {
+          "build/Microsoft.WindowsAppSDK.InteractiveExperiences.props": {},
+          "build/Microsoft.WindowsAppSDK.InteractiveExperiences.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK.WinUI/1.0.0-experimental1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.WinUI.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.WinUI.targets": {}
+        }
+      },
+      "PInvoke.Kernel32/0.7.104": {
+        "type": "package",
+        "dependencies": {
+          "PInvoke.Windows.Core": "0.7.104",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/PInvoke.Kernel32.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Kernel32.dll": {}
+        }
+      },
+      "PInvoke.User32/0.7.104": {
+        "type": "package",
+        "dependencies": {
+          "PInvoke.Kernel32": "0.7.104",
+          "PInvoke.Windows.Core": "0.7.104",
+          "PInvoke.Windows.ShellScalingApi": "0.7.104",
+          "Validation": "2.4.15"
+        },
+        "compile": {
+          "lib/netstandard2.0/PInvoke.User32.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.User32.dll": {}
+        }
+      },
+      "PInvoke.Windows.Core/0.7.104": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {}
+        }
+      },
+      "PInvoke.Windows.ShellScalingApi/0.7.104": {
+        "type": "package",
+        "dependencies": {
+          "PInvoke.Windows.Core": "0.7.104"
+        },
+        "compile": {
+          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "Validation/2.4.15": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.3/Validation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Validation.dll": {}
+        }
+      }
+    },
+    "net5.0-windows10.0.19041/win10-arm64": {
+      "Microsoft.WindowsAppSDK/1.0.0-experimental1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK.DWrite": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.Foundation": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.WinUI": "1.0.0-experimental1"
+        },
+        "build": {
+          "build/Microsoft.WindowsAppSDK.props": {},
+          "build/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK.DWrite/1.0.0-experimental1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.WindowsAppSDK.DWrite.props": {},
+          "build/Microsoft.WindowsAppSDK.DWrite.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK.Foundation/1.0.0-experimental1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "build": {
+          "build/Microsoft.WindowsAppSDK.Foundation.props": {},
+          "build/Microsoft.WindowsAppSDK.Foundation.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK.InteractiveExperiences/1.0.0-experimental1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.InteractiveExperiences.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.InteractiveExperiences.Projection.dll": {}
+        },
+        "build": {
+          "build/Microsoft.WindowsAppSDK.InteractiveExperiences.props": {},
+          "build/Microsoft.WindowsAppSDK.InteractiveExperiences.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK.WinUI/1.0.0-experimental1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.WinUI.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.WinUI.targets": {}
+        }
+      },
+      "PInvoke.Kernel32/0.7.104": {
+        "type": "package",
+        "dependencies": {
+          "PInvoke.Windows.Core": "0.7.104",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/PInvoke.Kernel32.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Kernel32.dll": {}
+        }
+      },
+      "PInvoke.User32/0.7.104": {
+        "type": "package",
+        "dependencies": {
+          "PInvoke.Kernel32": "0.7.104",
+          "PInvoke.Windows.Core": "0.7.104",
+          "PInvoke.Windows.ShellScalingApi": "0.7.104",
+          "Validation": "2.4.15"
+        },
+        "compile": {
+          "lib/netstandard2.0/PInvoke.User32.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.User32.dll": {}
+        }
+      },
+      "PInvoke.Windows.Core/0.7.104": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {}
+        }
+      },
+      "PInvoke.Windows.ShellScalingApi/0.7.104": {
+        "type": "package",
+        "dependencies": {
+          "PInvoke.Windows.Core": "0.7.104"
+        },
+        "compile": {
+          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "Validation/2.4.15": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.3/Validation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Validation.dll": {}
+        }
+      }
+    },
+    "net5.0-windows10.0.19041/win10-x64": {
+      "Microsoft.WindowsAppSDK/1.0.0-experimental1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK.DWrite": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.Foundation": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.WinUI": "1.0.0-experimental1"
+        },
+        "build": {
+          "build/Microsoft.WindowsAppSDK.props": {},
+          "build/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK.DWrite/1.0.0-experimental1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.WindowsAppSDK.DWrite.props": {},
+          "build/Microsoft.WindowsAppSDK.DWrite.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK.Foundation/1.0.0-experimental1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "build": {
+          "build/Microsoft.WindowsAppSDK.Foundation.props": {},
+          "build/Microsoft.WindowsAppSDK.Foundation.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK.InteractiveExperiences/1.0.0-experimental1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.InteractiveExperiences.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.InteractiveExperiences.Projection.dll": {}
+        },
+        "build": {
+          "build/Microsoft.WindowsAppSDK.InteractiveExperiences.props": {},
+          "build/Microsoft.WindowsAppSDK.InteractiveExperiences.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK.WinUI/1.0.0-experimental1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.WinUI.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.WinUI.targets": {}
+        }
+      },
+      "PInvoke.Kernel32/0.7.104": {
+        "type": "package",
+        "dependencies": {
+          "PInvoke.Windows.Core": "0.7.104",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/PInvoke.Kernel32.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Kernel32.dll": {}
+        }
+      },
+      "PInvoke.User32/0.7.104": {
+        "type": "package",
+        "dependencies": {
+          "PInvoke.Kernel32": "0.7.104",
+          "PInvoke.Windows.Core": "0.7.104",
+          "PInvoke.Windows.ShellScalingApi": "0.7.104",
+          "Validation": "2.4.15"
+        },
+        "compile": {
+          "lib/netstandard2.0/PInvoke.User32.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.User32.dll": {}
+        }
+      },
+      "PInvoke.Windows.Core/0.7.104": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {}
+        }
+      },
+      "PInvoke.Windows.ShellScalingApi/0.7.104": {
+        "type": "package",
+        "dependencies": {
+          "PInvoke.Windows.Core": "0.7.104"
+        },
+        "compile": {
+          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "Validation/2.4.15": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.3/Validation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Validation.dll": {}
+        }
+      }
+    },
+    "net5.0-windows10.0.19041/win10-x86": {
+      "Microsoft.WindowsAppSDK/1.0.0-experimental1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK.DWrite": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.Foundation": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.WinUI": "1.0.0-experimental1"
+        },
+        "build": {
+          "build/Microsoft.WindowsAppSDK.props": {},
+          "build/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK.DWrite/1.0.0-experimental1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.WindowsAppSDK.DWrite.props": {},
+          "build/Microsoft.WindowsAppSDK.DWrite.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK.Foundation/1.0.0-experimental1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "build": {
+          "build/Microsoft.WindowsAppSDK.Foundation.props": {},
+          "build/Microsoft.WindowsAppSDK.Foundation.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK.InteractiveExperiences/1.0.0-experimental1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.InteractiveExperiences.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.InteractiveExperiences.Projection.dll": {}
+        },
+        "build": {
+          "build/Microsoft.WindowsAppSDK.InteractiveExperiences.props": {},
+          "build/Microsoft.WindowsAppSDK.InteractiveExperiences.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK.WinUI/1.0.0-experimental1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.WinUI.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.WinUI.targets": {}
+        }
+      },
+      "PInvoke.Kernel32/0.7.104": {
+        "type": "package",
+        "dependencies": {
+          "PInvoke.Windows.Core": "0.7.104",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/PInvoke.Kernel32.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Kernel32.dll": {}
+        }
+      },
+      "PInvoke.User32/0.7.104": {
+        "type": "package",
+        "dependencies": {
+          "PInvoke.Kernel32": "0.7.104",
+          "PInvoke.Windows.Core": "0.7.104",
+          "PInvoke.Windows.ShellScalingApi": "0.7.104",
+          "Validation": "2.4.15"
+        },
+        "compile": {
+          "lib/netstandard2.0/PInvoke.User32.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.User32.dll": {}
+        }
+      },
+      "PInvoke.Windows.Core/0.7.104": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {}
+        }
+      },
+      "PInvoke.Windows.ShellScalingApi/0.7.104": {
+        "type": "package",
+        "dependencies": {
+          "PInvoke.Windows.Core": "0.7.104"
+        },
+        "compile": {
+          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "Validation/2.4.15": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.3/Validation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Validation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.WindowsAppSDK/1.0.0-experimental1": {
+      "sha512": "vjCqRR4pl+SRaqRbs/CysQqzeWfnqTk2utIqY3NRJxbc63r9pTH8l0C7Wz1guz5tOmc8/lbhC5gD0L6YLI/maw==",
+      "type": "package",
+      "path": "microsoft.windowsappsdk/1.0.0-experimental1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.WindowsAppSDK.AppXReference.props",
+        "build/Microsoft.WindowsAppSDK.Metapackage.props",
+        "build/Microsoft.WindowsAppSDK.Package.props",
+        "build/Microsoft.WindowsAppSDK.props",
+        "build/Microsoft.WindowsAppSDK.targets",
+        "build/Microsoft.Xaml.Tooling.targets",
+        "build/MicrosoftWindowsAppSDKFoundationAppXVersion.props",
+        "build/native/Microsoft.WindowsAppSDK.props",
+        "license.txt",
+        "microsoft.windowsappsdk.1.0.0-experimental1.nupkg.sha512",
+        "microsoft.windowsappsdk.nuspec",
+        "tools/MSIX/CodeSignSummary-c4b71425-f642-4c8c-bbf2-800b77b65b0a.md",
+        "tools/MSIX/win10-arm64/Microsoft.WindowsAppSDK.1.0-experimental1.msix",
+        "tools/MSIX/win10-arm64/Microsoft.WindowsAppSDK.DDLM.1.0-experimental1.msix",
+        "tools/MSIX/win10-arm64/Microsoft.WindowsAppSDK.Main.1.0-experimental1.msix",
+        "tools/MSIX/win10-x64/Microsoft.WindowsAppSDK.1.0-experimental1.msix",
+        "tools/MSIX/win10-x64/Microsoft.WindowsAppSDK.DDLM.1.0-experimental1.msix",
+        "tools/MSIX/win10-x64/Microsoft.WindowsAppSDK.Main.1.0-experimental1.msix",
+        "tools/MSIX/win10-x86/Microsoft.WindowsAppSDK.1.0-experimental1.msix",
+        "tools/MSIX/win10-x86/Microsoft.WindowsAppSDK.DDLM.1.0-experimental1.msix",
+        "tools/MSIX/win10-x86/Microsoft.WindowsAppSDK.Main.1.0-experimental1.msix"
+      ]
+    },
+    "Microsoft.WindowsAppSDK.DWrite/1.0.0-experimental1": {
+      "sha512": "xlzk+Dr7pmhTA0RAtxHf6/TmGua0V8wzx5w57MNGtbrbS2O8CnX3NGh9JAn6lRN/p0d6IVuJFgaCGiEM0tUA7Q==",
+      "type": "package",
+      "path": "microsoft.windowsappsdk.dwrite/1.0.0-experimental1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.WindowsAppSDK.DWrite.ProjectCapabilities.props",
+        "build/Microsoft.WindowsAppSDK.DWrite.props",
+        "build/Microsoft.WindowsAppSDK.DWrite.targets",
+        "lib/native/include/dwrite.h",
+        "lib/native/include/dwrite_1.h",
+        "lib/native/include/dwrite_2.h",
+        "lib/native/include/dwrite_3.h",
+        "lib/native/include/dwrite_core.h",
+        "lib/native/windows/arm64/release/DWriteCore.lib",
+        "lib/native/windows/x64/release/DWriteCore.lib",
+        "lib/native/windows/x86/release/DWriteCore.lib",
+        "license.txt",
+        "microsoft.windowsappsdk.dwrite.1.0.0-experimental1.nupkg.sha512",
+        "microsoft.windowsappsdk.dwrite.nuspec"
+      ]
+    },
+    "Microsoft.WindowsAppSDK.Foundation/1.0.0-experimental1": {
+      "sha512": "HRk953VsjM9JpLIu1Kq1rmu8TbEpcGdxb4ZOjNJV7kBqIGHY7z4MP4BFjzrrrePReBNtaUnRNNv0WSONOq63/w==",
+      "type": "package",
+      "path": "microsoft.windowsappsdk.foundation/1.0.0-experimental1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/Microsoft.ApplicationModel.Resources.PriGen.targets",
+        "build/Microsoft.ApplicationModel.Resources.References.targets",
+        "build/Microsoft.ApplicationModel.Resources.targets",
+        "build/Microsoft.WindowsAppSDK.Bootstrap.targets",
+        "build/Microsoft.WindowsAppSDK.Foundation.props",
+        "build/Microsoft.WindowsAppSDK.Foundation.targets",
+        "build/Microsoft.WindowsAppSDK.Package.props",
+        "build/README.md",
+        "build/native/Microsoft.ApplicationModel.Resources.C.props",
+        "build/native/Microsoft.ApplicationModel.Resources.WinRt.props",
+        "build/native/Microsoft.ApplicationModel.Resources.props",
+        "build/native/Microsoft.ApplicationModel.Resources.targets",
+        "build/native/Microsoft.WindowsAppSDK.Foundation.props",
+        "build/native/Microsoft.WindowsAppSDK.Foundation.targets",
+        "build/native/WindowsAppSDK-Nuget-Native.C.props",
+        "build/native/WindowsAppSDK-Nuget-Native.WinRt.props",
+        "include/MRM.h",
+        "include/MddBootstrap.h",
+        "include/MsixDynamicDependency.h",
+        "include/WindowsAppSDKInsights.h",
+        "include/wil_msixdynamicdependency.h",
+        "lib/native/Microsoft.ApplicationModel.Resources.winmd",
+        "lib/native/Microsoft.ApplicationModel.Resources.xml",
+        "lib/native/Microsoft.Windows.AppLifecycle.winmd",
+        "lib/native/Microsoft.Windows.ApplicationModel.DynamicDependency.winmd",
+        "lib/native/Microsoft.Windows.PushNotifications.winmd",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.ApplicationModel.Resources.Projection.dll",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.ApplicationModel.Resources.Projection.xml",
+        "lib/uap10.0/Microsoft.ApplicationModel.Resources.winmd",
+        "lib/uap10.0/Microsoft.ApplicationModel.Resources.xml",
+        "lib/uap10.0/Microsoft.Windows.AppLifecycle.winmd",
+        "lib/uap10.0/Microsoft.Windows.AppLifecycle.xml",
+        "lib/uap10.0/Microsoft.Windows.ApplicationModel.DynamicDependency.xml",
+        "lib/uap10.0/Microsoft.Windows.PushNotifications.winmd",
+        "lib/uap10.0/Microsoft.Windows.PushNotifications.xml",
+        "lib/win10-arm64/MRM.lib",
+        "lib/win10-arm64/Microsoft.WindowsAppSDK.Bootstrap.lib",
+        "lib/win10-arm64/Microsoft.WindowsAppSDK.Insights.lib",
+        "lib/win10-arm64/Microsoft.WindowsAppSDK.lib",
+        "lib/win10-x64/MRM.lib",
+        "lib/win10-x64/Microsoft.WindowsAppSDK.Bootstrap.lib",
+        "lib/win10-x64/Microsoft.WindowsAppSDK.Insights.lib",
+        "lib/win10-x64/Microsoft.WindowsAppSDK.lib",
+        "lib/win10-x86/MRM.lib",
+        "lib/win10-x86/Microsoft.WindowsAppSDK.Bootstrap.lib",
+        "lib/win10-x86/Microsoft.WindowsAppSDK.Insights.lib",
+        "lib/win10-x86/Microsoft.WindowsAppSDK.lib",
+        "microsoft.windowsappsdk.foundation.1.0.0-experimental1.nupkg.sha512",
+        "microsoft.windowsappsdk.foundation.nuspec",
+        "runtimes/lib/native/arm64/Microsoft.WindowsAppSDK.Bootstrap.dll",
+        "runtimes/lib/native/x64/Microsoft.WindowsAppSDK.Bootstrap.dll",
+        "runtimes/lib/native/x86/Microsoft.WindowsAppSDK.Bootstrap.dll"
+      ]
+    },
+    "Microsoft.WindowsAppSDK.InteractiveExperiences/1.0.0-experimental1": {
+      "sha512": "69Phhhrv0WQA1esNet/vasUw71vx8iXh6L6MfjvrK/nk5PJ2Pa676saeHPShotp5CGGrIPRxXok1BZ/8a3mVLQ==",
+      "type": "package",
+      "path": "microsoft.windowsappsdk.interactiveexperiences/1.0.0-experimental1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.InteractiveExperiences.Capabilities.props",
+        "build/Microsoft.InteractiveExperiences.Capabilities.targets",
+        "build/Microsoft.InteractiveExperiences.Common.props",
+        "build/Microsoft.InteractiveExperiences.Common.targets",
+        "build/Microsoft.InteractiveExperiences.props",
+        "build/Microsoft.InteractiveExperiences.targets",
+        "build/Microsoft.ProjectReunion.InteractiveExperiences.TransportPackage.props",
+        "build/Microsoft.ProjectReunion.InteractiveExperiences.TransportPackage.targets",
+        "build/Microsoft.ProjectReunion.InteractiveExperiences.props",
+        "build/Microsoft.ProjectReunion.InteractiveExperiences.targets",
+        "build/Microsoft.WindowsAppSDK.InteractiveExperiences.props",
+        "build/Microsoft.WindowsAppSDK.InteractiveExperiences.targets",
+        "build/native/Microsoft.InteractiveExperiences.props",
+        "build/native/Microsoft.InteractiveExperiences.targets",
+        "build/native/Microsoft.ProjectReunion.InteractiveExperiences.TransportPackage.props",
+        "build/native/Microsoft.ProjectReunion.InteractiveExperiences.TransportPackage.targets",
+        "build/native/Microsoft.ProjectReunion.InteractiveExperiences.props",
+        "build/native/Microsoft.ProjectReunion.InteractiveExperiences.targets",
+        "build/native/Microsoft.WindowsAppSDK.InteractiveExperiences.props",
+        "build/native/Microsoft.WindowsAppSDK.InteractiveExperiences.targets",
+        "include/FrameworkUdk/AudioGraphSettingsExtension.h",
+        "include/FrameworkUdk/BackButtonIntegration.h",
+        "include/FrameworkUdk/BackButtonPressedListener.h",
+        "include/FrameworkUdk/CoreDragOperationFunctions.h",
+        "include/FrameworkUdk/CoreWindowIntegration.h",
+        "include/FrameworkUdk/CoreWindowIntegrationInterface.h",
+        "include/FrameworkUdk/DebugTool.h",
+        "include/FrameworkUdk/FinalUnhandledErrorDetected.h",
+        "include/FrameworkUdk/FrameworkInputView.h",
+        "include/FrameworkUdk/InputPaneFramework.h",
+        "include/FrameworkUdk/InputPaneListener.h",
+        "include/FrameworkUdk/MFMediaEngineExtension.h",
+        "include/FrameworkUdk/MediaCaptureExtension.h",
+        "include/FrameworkUdk/MediaExtensionEnums.h",
+        "include/FrameworkUdk/MediaPlaybackDataSourceExtension.h",
+        "include/FrameworkUdk/MediaPlaybackListExtension.h",
+        "include/FrameworkUdk/MediaPlaybackSessionExtension.h",
+        "include/FrameworkUdk/MediaPlayerExtension.h",
+        "include/FrameworkUdk/MuiUdk.h",
+        "include/FrameworkUdk/PowerNotificationsPal.h",
+        "include/FrameworkUdk/PushNotifications.h",
+        "include/FrameworkUdk/PushNotificationsRT.h",
+        "include/FrameworkUdk/ResourceManager.h",
+        "include/FrameworkUdk/TextAnalysis.h",
+        "include/FrameworkUdk/TextInput.h",
+        "include/FrameworkUdk/Theming.h",
+        "include/FrameworkUdk/TimedMetadataTrackExtension.h",
+        "include/FrameworkUdk/VisualDiagnosticsPort.h",
+        "include/FrameworkUdk/Windowing.h",
+        "include/Microsoft.UI.Composition.Interop.h",
+        "include/winrt/Microsoft.UI.Composition.Interop.h",
+        "include/winrt/Microsoft.UI.Interop.h",
+        "include/winrt/microsoft.ui.dispatching.co_await.h",
+        "lib/native/win10-arm64/Microsoft.InteractiveExperiences.manifest",
+        "lib/native/win10-arm64/Microsoft.Internal.FrameworkUdk.lib",
+        "lib/native/win10-arm64/microsoft.ui.windowing.core.lib",
+        "lib/native/win10-x64/Microsoft.InteractiveExperiences.manifest",
+        "lib/native/win10-x64/Microsoft.Internal.FrameworkUdk.lib",
+        "lib/native/win10-x64/microsoft.ui.windowing.core.lib",
+        "lib/native/win10-x86/Microsoft.InteractiveExperiences.manifest",
+        "lib/native/win10-x86/Microsoft.Internal.FrameworkUdk.lib",
+        "lib/native/win10-x86/microsoft.ui.windowing.core.lib",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.InteractiveExperiences.Projection.dll",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.InteractiveExperiences.Projection.xml",
+        "lib/uap10.0/Microsoft.Foundation.winmd",
+        "lib/uap10.0/Microsoft.Graphics.DirectX.winmd",
+        "lib/uap10.0/Microsoft.UI.Composition.winmd",
+        "lib/uap10.0/Microsoft.UI.Composition.xml",
+        "lib/uap10.0/Microsoft.UI.Dispatching.winmd",
+        "lib/uap10.0/Microsoft.UI.Dispatching.xml",
+        "lib/uap10.0/Microsoft.UI.Hosting.winmd",
+        "lib/uap10.0/Microsoft.UI.Input.winmd",
+        "lib/uap10.0/Microsoft.UI.Input.xml",
+        "lib/uap10.0/Microsoft.UI.Windowing.winmd",
+        "lib/uap10.0/Microsoft.UI.winmd",
+        "lib/uap10.0/Microsoft.UI.xml",
+        "license.txt",
+        "microsoft.windowsappsdk.interactiveexperiences.1.0.0-experimental1.nupkg.sha512",
+        "microsoft.windowsappsdk.interactiveexperiences.nuspec"
+      ]
+    },
+    "Microsoft.WindowsAppSDK.WinUI/1.0.0-experimental1": {
+      "sha512": "0IKpmhXQJ3nSyAhu5Td8CWqmbqgLr53KxRJTbIGvXcX10rlw0gFr2bL9kjkVD5KsOioOWLMESEtnHKlQcHXkVA==",
+      "type": "package",
+      "path": "microsoft.windowsappsdk.winui/1.0.0-experimental1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AppxManifest.xml",
+        "build/AppDevPackageScripts/Add-AppDevPackage.ps1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/cs-CZ/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/de-DE/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/en-US/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/es-ES/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/fr-FR/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/it-IT/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/ja-JP/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/ko-KR/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/pl-PL/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/pt-BR/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/ru-RU/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/tr-TR/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/zh-CN/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/zh-TW/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Install.ps1",
+        "build/AppDevPackageScripts/LogSideloadingTelemetry.ps1",
+        "build/DefaultWin32Manifests/default.manifest",
+        "build/DefaultWin32Manifests/dpiaware-permonv2.manifest",
+        "build/DefaultWin32Manifests/dpiaware-system.manifest",
+        "build/Microsoft.Build.Msix.Common.props",
+        "build/Microsoft.Build.Msix.Cpp.props",
+        "build/Microsoft.Build.Msix.Cpp.targets",
+        "build/Microsoft.Build.Msix.DesignTime.targets",
+        "build/Microsoft.Build.Msix.Packaging.targets",
+        "build/Microsoft.Build.Msix.Pri.targets",
+        "build/Microsoft.Build.Msix.ReunionManifest.targets",
+        "build/Microsoft.Build.Msix.props",
+        "build/Microsoft.Build.Msix.targets",
+        "build/Microsoft.ProjectReunion.Foundation.targets",
+        "build/Microsoft.ProjectReunion.WinUI.Build.props",
+        "build/Microsoft.ProjectReunion.WinUI.TransportPackage.props",
+        "build/Microsoft.ProjectReunion.WinUI.TransportPackage.targets",
+        "build/Microsoft.ProjectReunion.WinUI.props",
+        "build/Microsoft.ProjectReunion.WinUI.targets",
+        "build/Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+        "build/Microsoft.UI.Xaml.Markup.Compiler.props",
+        "build/Microsoft.UI.Xaml.Markup.Compiler.targets",
+        "build/Microsoft.WinUI.AppX.targets",
+        "build/Microsoft.WinUI.NET.Markup.Compiler.targets",
+        "build/Microsoft.WinUI.ProjectCapabilities.props",
+        "build/Microsoft.WinUI.References.targets",
+        "build/Microsoft.WinUI.props",
+        "build/Microsoft.WinUI.targets",
+        "build/Microsoft.WindowsAppSDK.Package.props",
+        "build/Microsoft.WindowsAppSDK.WinUI.props",
+        "build/Microsoft.WindowsAppSDK.WinUI.targets",
+        "build/native/LiftedWinRTClassRegistrations.xml",
+        "build/native/LiftedWinRTClassRegistrationsUnpackaged.xml",
+        "build/native/Microsoft.ProjectReunion.WinUI.TransportPackage.props",
+        "build/native/Microsoft.ProjectReunion.WinUI.TransportPackage.targets",
+        "build/native/Microsoft.ProjectReunion.WinUI.props",
+        "build/native/Microsoft.ProjectReunion.WinUI.targets",
+        "build/native/Microsoft.WinUI.References.targets",
+        "build/native/Microsoft.WinUI.props",
+        "build/native/Microsoft.WinUI.targets",
+        "build/native/Microsoft.WindowsAppSDK.WinUI.props",
+        "build/native/Microsoft.WindowsAppSDK.WinUI.targets",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.ps1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/cs-CZ/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/de-DE/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/en-US/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/es-ES/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/fr-FR/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/it-IT/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/ja-JP/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/ko-KR/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/pl-PL/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/pt-BR/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/ru-RU/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/tr-TR/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/zh-CN/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/zh-TW/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Install.ps1",
+        "buildTransitive/AppDevPackageScripts/LogSideloadingTelemetry.ps1",
+        "buildTransitive/DefaultWin32Manifests/default.manifest",
+        "buildTransitive/DefaultWin32Manifests/dpiaware-permonv2.manifest",
+        "buildTransitive/DefaultWin32Manifests/dpiaware-system.manifest",
+        "buildTransitive/Microsoft.Build.Msix.Common.props",
+        "buildTransitive/Microsoft.Build.Msix.Cpp.props",
+        "buildTransitive/Microsoft.Build.Msix.Cpp.targets",
+        "buildTransitive/Microsoft.Build.Msix.DesignTime.targets",
+        "buildTransitive/Microsoft.Build.Msix.Packaging.targets",
+        "buildTransitive/Microsoft.Build.Msix.Pri.targets",
+        "buildTransitive/Microsoft.Build.Msix.ReunionManifest.targets",
+        "buildTransitive/Microsoft.Build.Msix.props",
+        "buildTransitive/Microsoft.Build.Msix.targets",
+        "buildTransitive/Microsoft.ProjectReunion.Foundation.targets",
+        "buildTransitive/Microsoft.ProjectReunion.WinUI.Build.props",
+        "buildTransitive/Microsoft.ProjectReunion.WinUI.TransportPackage.props",
+        "buildTransitive/Microsoft.ProjectReunion.WinUI.TransportPackage.targets",
+        "buildTransitive/Microsoft.ProjectReunion.WinUI.props",
+        "buildTransitive/Microsoft.ProjectReunion.WinUI.targets",
+        "buildTransitive/Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+        "buildTransitive/Microsoft.UI.Xaml.Markup.Compiler.props",
+        "buildTransitive/Microsoft.UI.Xaml.Markup.Compiler.targets",
+        "buildTransitive/Microsoft.WinUI.AppX.targets",
+        "buildTransitive/Microsoft.WinUI.NET.Markup.Compiler.targets",
+        "buildTransitive/Microsoft.WinUI.ProjectCapabilities.props",
+        "buildTransitive/Microsoft.WinUI.References.targets",
+        "buildTransitive/Microsoft.WinUI.props",
+        "buildTransitive/Microsoft.WinUI.targets",
+        "buildTransitive/Microsoft.WindowsAppSDK.Package.props",
+        "buildTransitive/Microsoft.WindowsAppSDK.WinUI.props",
+        "buildTransitive/Microsoft.WindowsAppSDK.WinUI.targets",
+        "buildTransitive/native/LiftedWinRTClassRegistrations.xml",
+        "buildTransitive/native/LiftedWinRTClassRegistrationsUnpackaged.xml",
+        "buildTransitive/native/Microsoft.ProjectReunion.WinUI.TransportPackage.props",
+        "buildTransitive/native/Microsoft.ProjectReunion.WinUI.TransportPackage.targets",
+        "buildTransitive/native/Microsoft.ProjectReunion.WinUI.props",
+        "buildTransitive/native/Microsoft.ProjectReunion.WinUI.targets",
+        "buildTransitive/native/Microsoft.WinUI.References.targets",
+        "buildTransitive/native/Microsoft.WinUI.props",
+        "buildTransitive/native/Microsoft.WinUI.targets",
+        "buildTransitive/native/Microsoft.WindowsAppSDK.WinUI.props",
+        "buildTransitive/native/Microsoft.WindowsAppSDK.WinUI.targets",
+        "include/WebView2.h",
+        "include/WebView2.idl",
+        "include/microsoft.ui.xaml.hosting.desktopwindowxamlsource.h",
+        "include/microsoft.ui.xaml.hosting.desktopwindowxamlsource.idl",
+        "include/microsoft.ui.xaml.hosting.referencetracker.h",
+        "include/microsoft.ui.xaml.hosting.referencetracker.idl",
+        "include/microsoft.ui.xaml.media.dxinterop.h",
+        "include/microsoft.ui.xaml.media.dxinterop.idl",
+        "include/microsoft.ui.xaml.window.h",
+        "include/microsoft.ui.xaml.window.idl",
+        "include/microsoft.ui.xaml.xamlroot.h",
+        "include/microsoft.ui.xaml.xamlroot.idl",
+        "include/winrtdirect3d11.h",
+        "include/winrtdirectxcommon.h",
+        "include/xamlom.h",
+        "include/xamlom.idl",
+        "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll",
+        "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.xml",
+        "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI/Themes/generic.xaml",
+        "lib/uap10.0/Microsoft.UI.Text.winmd",
+        "lib/uap10.0/Microsoft.UI.Text.xml",
+        "lib/uap10.0/Microsoft.UI.Xaml.winmd",
+        "lib/uap10.0/Microsoft.UI.Xaml.xml",
+        "lib/uap10.0/Microsoft.UI/Themes/generic.xaml",
+        "lib/uap10.0/Microsoft.Web.WebView2.Core.winmd",
+        "license.txt",
+        "microsoft.windowsappsdk.winui.1.0.0-experimental1.nupkg.sha512",
+        "microsoft.windowsappsdk.winui.nuspec",
+        "tools/Microsoft.Build.Framework.dll",
+        "tools/Microsoft.Build.Msix.dll",
+        "tools/Microsoft.Build.Utilities.Core.dll",
+        "tools/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "tools/Microsoft.UI.Xaml.Markup.Compiler.MSBuildInterop.dll",
+        "tools/Microsoft.UI.Xaml.Markup.Compiler.dll",
+        "tools/Microsoft.VisualStudio.RemoteControl.dll",
+        "tools/Microsoft.VisualStudio.Setup.Configuration.Interop.dll",
+        "tools/Microsoft.VisualStudio.Telemetry.dll",
+        "tools/Microsoft.VisualStudio.Utilities.Internal.dll",
+        "tools/arm64/GenXbf.dll",
+        "tools/x64/GenXbf.dll",
+        "tools/x86/GenXbf.dll"
+      ]
+    },
+    "PInvoke.Kernel32/0.7.104": {
+      "sha512": "xU9Wp22ej6NcVg4Uqelnhz27X6HdHaroAPOk5IsG8nTi82zHOznTOW2KIYCdpAGf67rHpQW6UtmjrG+5HPlnvA==",
+      "type": "package",
+      "path": "pinvoke.kernel32/0.7.104",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/PInvoke.Kernel32.dll",
+        "lib/net45/PInvoke.Kernel32.xml",
+        "lib/net46/PInvoke.Kernel32.dll",
+        "lib/net46/PInvoke.Kernel32.xml",
+        "lib/netstandard2.0/PInvoke.Kernel32.dll",
+        "lib/netstandard2.0/PInvoke.Kernel32.xml",
+        "lib/uap10.0.16299/PInvoke.Kernel32.dll",
+        "lib/uap10.0.16299/PInvoke.Kernel32.pri",
+        "lib/uap10.0.16299/PInvoke.Kernel32.xml",
+        "pinvoke.kernel32.0.7.104.nupkg.sha512",
+        "pinvoke.kernel32.nuspec"
+      ]
+    },
+    "PInvoke.User32/0.7.104": {
+      "sha512": "MPJICVOtkCCuLY0hbu7tgBFE3S3WHVrym5ZF2NjGAMluhKdkWFSIOi+wadnMwX2PI7nhCQ4bPK/REKZtfYdgaQ==",
+      "type": "package",
+      "path": "pinvoke.user32/0.7.104",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/PInvoke.User32.dll",
+        "lib/net45/PInvoke.User32.xml",
+        "lib/netstandard2.0/PInvoke.User32.dll",
+        "lib/netstandard2.0/PInvoke.User32.xml",
+        "lib/uap10.0.16299/PInvoke.User32.dll",
+        "lib/uap10.0.16299/PInvoke.User32.pri",
+        "lib/uap10.0.16299/PInvoke.User32.xml",
+        "pinvoke.user32.0.7.104.nupkg.sha512",
+        "pinvoke.user32.nuspec"
+      ]
+    },
+    "PInvoke.Windows.Core/0.7.104": {
+      "sha512": "WI8ht+k0nk7YmeWD6OewGI+TzRdgtJSaO+e+PMPeYSBVwU9jl4ZlelizZNz271ZY4k4J8lk+mTWg5bo+I71mTA==",
+      "type": "package",
+      "path": "pinvoke.windows.core/0.7.104",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/PInvoke.Windows.Core.dll",
+        "lib/net45/PInvoke.Windows.Core.xml",
+        "lib/netstandard2.0/PInvoke.Windows.Core.dll",
+        "lib/netstandard2.0/PInvoke.Windows.Core.xml",
+        "lib/uap10.0.16299/PInvoke.Windows.Core.dll",
+        "lib/uap10.0.16299/PInvoke.Windows.Core.pri",
+        "lib/uap10.0.16299/PInvoke.Windows.Core.xml",
+        "pinvoke.windows.core.0.7.104.nupkg.sha512",
+        "pinvoke.windows.core.nuspec"
+      ]
+    },
+    "PInvoke.Windows.ShellScalingApi/0.7.104": {
+      "sha512": "rgCP4i9U6oEHlBY1uOGEuw+aaS5U9zfNMs1Vj6dlgCgW5Rq1fazENQuAvf6GCHSAl4Cann4A90z+fCcXbwLqtg==",
+      "type": "package",
+      "path": "pinvoke.windows.shellscalingapi/0.7.104",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/PInvoke.Windows.ShellScalingApi.dll",
+        "lib/net45/PInvoke.Windows.ShellScalingApi.xml",
+        "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll",
+        "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.xml",
+        "lib/uap10.0.16299/PInvoke.Windows.ShellScalingApi.dll",
+        "lib/uap10.0.16299/PInvoke.Windows.ShellScalingApi.pri",
+        "lib/uap10.0.16299/PInvoke.Windows.ShellScalingApi.xml",
+        "pinvoke.windows.shellscalingapi.0.7.104.nupkg.sha512",
+        "pinvoke.windows.shellscalingapi.nuspec"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Threading.Tasks.Extensions.dll",
+        "lib/net461/System.Threading.Tasks.Extensions.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Validation/2.4.15": {
+      "sha512": "KQFOtJKKhaXzuSiZhkFaFzQEdYsA+EN/XqKZDYwsGDOrS0Nxu6qzCvNTsDF4xtkiZbBA6u7I59QnsuP2O2fZgg==",
+      "type": "package",
+      "path": "validation/2.4.15",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net20/Validation.dll",
+        "lib/net20/Validation.xml",
+        "lib/net40/Validation.dll",
+        "lib/net40/Validation.xml",
+        "lib/net45/Validation.dll",
+        "lib/net45/Validation.xml",
+        "lib/netstandard1.0/Validation.dll",
+        "lib/netstandard1.0/Validation.xml",
+        "lib/netstandard1.3/Validation.dll",
+        "lib/netstandard1.3/Validation.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Validation.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Validation.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Validation.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Validation.xml",
+        "tools/2013/RequiresNotNull.snippet",
+        "tools/2013/RequiresNotNullOrEmpty.snippet",
+        "tools/2015/RequiresNotNull.snippet",
+        "tools/2015/RequiresNotNullOrEmpty.snippet",
+        "tools/install_snippets.cmd",
+        "tools/uninstall_snippets.cmd",
+        "validation.2.4.15.nupkg.sha512",
+        "validation.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows10.0.19041": [
+      "Microsoft.WindowsAppSDK >= 1.0.0-experimental1",
+      "Microsoft.WindowsAppSDK.Foundation >= 1.0.0-experimental1",
+      "Microsoft.WindowsAppSDK.InteractiveExperiences >= 1.0.0-experimental1",
+      "Microsoft.WindowsAppSDK.WinUI >= 1.0.0-experimental1",
+      "PInvoke.User32 >= 0.7.104"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lazie\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Meus Programas\\Meus Projetos e Treinamentos\\WinUI3_DontChangeToNET6yet\\WinUI3_DontChangeToNET6yet\\WinUI3_DontChangeToNET6yet\\WinUI3_DontChangeToNET6yet.csproj",
+      "projectName": "WinUI3_DontChangeToNET6yet",
+      "projectPath": "C:\\Meus Programas\\Meus Projetos e Treinamentos\\WinUI3_DontChangeToNET6yet\\WinUI3_DontChangeToNET6yet\\WinUI3_DontChangeToNET6yet\\WinUI3_DontChangeToNET6yet.csproj",
+      "packagesPath": "C:\\Users\\lazie\\.nuget\\packages\\",
+      "outputPath": "C:\\Meus Programas\\Meus Projetos e Treinamentos\\WinUI3_DontChangeToNET6yet\\WinUI3_DontChangeToNET6yet\\WinUI3_DontChangeToNET6yet\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\lazie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows10.0.19041"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows10.0.19041": {
+          "targetAlias": "net5.0-windows10.0.19041.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows10.0.19041": {
+        "targetAlias": "net5.0-windows10.0.19041.0",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": {
+            "target": "Package",
+            "version": "[1.0.0-experimental1, )"
+          },
+          "Microsoft.WindowsAppSDK.Foundation": {
+            "target": "Package",
+            "version": "[1.0.0-experimental1, )"
+          },
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": {
+            "target": "Package",
+            "version": "[1.0.0-experimental1, )"
+          },
+          "Microsoft.WindowsAppSDK.WinUI": {
+            "target": "Package",
+            "version": "[1.0.0-experimental1, )"
+          },
+          "PInvoke.User32": {
+            "target": "Package",
+            "version": "[0.7.104, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
+            "version": "[5.0.12, 5.0.12]"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[5.0.12, 5.0.12]"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+            "version": "[5.0.12, 5.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-arm64",
+            "version": "[5.0.12, 5.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[5.0.12, 5.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x86",
+            "version": "[5.0.12, 5.0.12]"
+          },
+          {
+            "name": "Microsoft.Windows.SDK.NET.Ref",
+            "version": "[10.0.19041.22, 10.0.19041.22]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
+            "version": "[5.0.12, 5.0.12]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[5.0.12, 5.0.12]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+            "version": "[5.0.12, 5.0.12]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.Windows.SDK.NET.Ref": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200-preview.21617.4\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win10-arm64": {
+        "#import": []
+      },
+      "win10-x64": {
+        "#import": []
+      },
+      "win10-x86": {
+        "#import": []
+      }
+    }
+  }
+}
