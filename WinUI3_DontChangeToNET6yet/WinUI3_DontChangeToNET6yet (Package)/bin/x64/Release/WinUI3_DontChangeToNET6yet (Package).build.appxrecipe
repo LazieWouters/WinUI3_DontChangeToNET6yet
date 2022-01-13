@@ -64,6 +64,9 @@
     <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Google-Chrome-Google-Chrome.ico">
       <PackagePath>Images\Google-Chrome-Google-Chrome.ico</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\HD-light.ico">
+      <PackagePath>Images\HD-light.ico</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Iconshock-Real-Vista-Development-Defragmentation.ico">
       <PackagePath>Images\Iconshock-Real-Vista-Development-Defragmentation.ico</PackagePath>
     </AppxPackagedFile>

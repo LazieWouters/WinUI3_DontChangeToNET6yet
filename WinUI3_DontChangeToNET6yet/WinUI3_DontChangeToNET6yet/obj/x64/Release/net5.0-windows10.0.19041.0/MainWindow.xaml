@@ -45,11 +45,11 @@
                             Background="{StaticResource SystemControlAcrylicWindowMediumHighBrush}">
                         <StackPanel>
                             <StackPanel Orientation="Horizontal">
-                                <Image Source="Images/microsoft_office_excel_logo_icon_145720.ico" Height="25" Width="25" Margin="5,0,0,0"/>
+                                <Image Source="Images/HD-light.ico" Height="25" Width="25" Margin="5,-5,0,0"/>
                                 <TextBlock x:ConnectionId='58' x:Name="DriveC" Text="Sample" FontSize="15" Margin="10,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
-                                <Image Source="Images/microsoft_office_excel_logo_icon_145720.ico" Height="25" Width="25" Margin="5,0,0,0"/>
+                                <Image Source="Images/HD-light.ico" Height="25" Width="25" Margin="5,-5,0,0"/>
                                 <TextBlock x:ConnectionId='57' x:Name="DriveD" Text="Sample" FontSize="15" Margin="10,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                             </StackPanel>                            
                         </StackPanel>

@@ -11,6 +11,7 @@ C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3
 C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\Images\Fireworks_23547.ico
 C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\Images\Fix Windows Settings.ico
 C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\Images\Google-Chrome-Google-Chrome.ico
+C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\Images\HD-light.ico
 C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\Images\Iconshock-Real-Vista-Development-Defragmentation.ico
 C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\Images\Martz90-Circle-Addon1-Nvidia.ico
 C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet (Package)\Images\microsoft_office_excel_logo_icon_145720.ico

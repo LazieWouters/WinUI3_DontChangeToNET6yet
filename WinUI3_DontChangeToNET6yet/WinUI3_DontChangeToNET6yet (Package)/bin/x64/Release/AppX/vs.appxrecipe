@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\bin\x64\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-13T23:20:31.060</Modified>
+      <Modified>2022-01-13T23:38:37.634</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +85,10 @@
     <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Google-Chrome-Google-Chrome.ico">
       <PackagePath>Images\Google-Chrome-Google-Chrome.ico</PackagePath>
       <Modified>2021-12-25T18:53:53.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\HD-light.ico">
+      <PackagePath>Images\HD-light.ico</PackagePath>
+      <Modified>2022-01-13T23:34:21.813</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\Images\Iconshock-Real-Vista-Development-Defragmentation.ico">
       <PackagePath>Images\Iconshock-Real-Vista-Development-Defragmentation.ico</PackagePath>
@@ -266,7 +270,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet %28Package%29\bin\x64\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-01-13T23:20:31.027</Modified>
+      <Modified>2022-01-13T23:38:37.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lazie\.nuget\packages\microsoft.windowsappsdk.foundation\1.0.0-experimental1\lib\net5.0-windows10.0.17763.0\Microsoft.ApplicationModel.Resources.Projection.dll">
       <PackagePath>WinUI3_DontChangeToNET6yet\Microsoft.ApplicationModel.Resources.Projection.dll</PackagePath>
@@ -322,31 +326,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\bin\x64\Release\net5.0-windows10.0.19041.0\WinUI3_DontChangeToNET6yet.deps.json">
       <PackagePath>WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.deps.json</PackagePath>
-      <Modified>2022-01-13T13:17:01.375</Modified>
+      <Modified>2022-01-13T23:38:36.410</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\bin\x64\Release\net5.0-windows10.0.19041.0\WinUI3_DontChangeToNET6yet.runtimeconfig.dev.json">
       <PackagePath>WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.runtimeconfig.dev.json</PackagePath>
-      <Modified>2022-01-13T13:17:01.443</Modified>
+      <Modified>2022-01-13T23:38:36.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\obj\x64\Release\net5.0-windows10.0.19041.0\App.xbf">
       <PackagePath>WinUI3_DontChangeToNET6yet\App.xbf</PackagePath>
-      <Modified>2022-01-13T23:20:29.642</Modified>
+      <Modified>2022-01-13T23:38:35.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\obj\x64\Release\net5.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>WinUI3_DontChangeToNET6yet\MainWindow.xbf</PackagePath>
-      <Modified>2022-01-13T23:20:29.642</Modified>
+      <Modified>2022-01-13T23:38:35.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\obj\x64\Release\net5.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.exe</PackagePath>
-      <Modified>2022-01-13T23:20:30.007</Modified>
+      <Modified>2022-01-13T23:38:36.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\bin\x64\Release\net5.0-windows10.0.19041.0\WinUI3_DontChangeToNET6yet.runtimeconfig.json">
       <PackagePath>WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.runtimeconfig.json</PackagePath>
-      <Modified>2022-01-13T13:17:01.439</Modified>
+      <Modified>2022-01-13T23:38:36.470</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet\bin\x64\Release\net5.0-windows10.0.19041.0\WinUI3_DontChangeToNET6yet.dll">
       <PackagePath>WinUI3_DontChangeToNET6yet\WinUI3_DontChangeToNET6yet.dll</PackagePath>
-      <Modified>2022-01-13T23:20:29.787</Modified>
+      <Modified>2022-01-13T23:38:36.081</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
